@@ -1,0 +1,2 @@
+# PawnToQueen
+For studying chess
