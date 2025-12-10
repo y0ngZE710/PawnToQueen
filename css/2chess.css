@@ -1,0 +1,271 @@
+            
+
+
+
+
+
+
+    /* 배경색 */
+    body {
+        background-color: rgb(68, 65, 65);
+        color: white;
+    }
+
+    /* PawnToQueen 글자 패딩 */
+    .PawnToQueen {
+        padding: 0px 20px;
+        margin: 0;
+    }
+
+    /* PawnToQueen 로고 크기 */
+    .PawnToQueen-logo {
+        width: 50px;
+        
+    }
+
+    /* hr 모양 설정 */
+    hr {
+        border: none;
+        height: 2px;
+        background-color: white;
+        margin: 10px 0px 20px 0px;
+    }
+
+    /* 버튼 안에 a 설정 */
+    .button > a {
+        text-decoration: none;
+        color: white;
+    }
+
+    /* 버튼 안에 a에 마우스 포인터를 가져다 댔을 때 색깔 밝게 설정 */
+    .button > a:hover {
+        background-color: #837a7a;
+    }
+
+    /* 버튼 안에 a가 있는 버튼 모양 설정 */
+    .button > a {
+        width: 250px;
+        height: 60px;
+        border-radius: 8px;
+        background-color: #645d5d;
+        border: 4px solid #1b1a1a;
+        box-shadow: 5px 5px 5px #161515;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* .button > a:active {
+        color:aquamarine;
+    } */
+
+    /* 폰트 크기 1 */
+    .font_big01 {
+        font-size: 35px;
+        padding-top: 5px;
+    }
+
+    /* 폰트 크기 2 */
+    .font_big02 {
+        font-size: 90px;
+    }
+
+    /* 폰트 볼드 */
+    .font_bold {
+        font-weight:bold;
+    }
+
+    /* 폰트 중앙 정렬 */
+    .font_center {
+        text-align:center;
+    }
+
+    /* chess board를 띄우기 위한 iframe */
+    iframe {
+        width: 488px;
+        height: 488px;
+        border: none;
+        box-shadow: 5px 5px 5px #161515;
+    }
+
+    /* 중앙 정렬 */
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: top;
+    }
+    
+    /* 메뉴에 Go To Study와 버튼 사이에 마진 */
+    .menu {
+        margin-top: 20px;
+    }
+
+    /* 버튼과 버튼 사이 간격 */
+    .menu .button {
+        padding: 0px 80px;
+    }
+
+    /* 메뉴 탭에서 체스판 영역 마진 1 */
+    .board-area01 {
+        margin-top: 65px;
+    }
+
+    /* Go To Study 글자 위치를 위한 마진 */
+    .GTS-margin {
+        margin: -5px 0px 30px 0px;
+    }
+
+
+    /* 오프닝 탭에서 타이틀 왼쪽 마진 */
+    .title-margin {
+        margin-left: 10px;
+    }
+
+    /* 우측 정렬 */
+    .float-right {
+        float: right;
+    }
+
+
+        /* 세로 하얀선 설정 */
+        .l-line {
+            width: 3px;
+            height: 750px;
+            background-color: white;
+            margin: 0px 130px 0px 100px;
+        }
+
+        /* l-line과 같은 가로에 위치시키기 위한 설정 */
+        .row {
+            display: flex;
+        }
+
+        /* 오프닝 탭에서 체스판 영역 마진 */
+        .board-area02 {
+            margin-top: 45px;
+            margin-right: 5px;
+        }
+
+
+        /* 토글 버튼 왼쪽 마진 */
+        .toggle {
+            margin-left: 47px;
+        }
+    
+        /* 버튼과 토글 내용 사이 간격 */
+        .page {
+            margin-top: 5px;
+        }
+
+        /* textarea 설정 */
+        .textrea01 {
+            margin-left: 70px;
+            font-size: 20px;
+        }
+
+        /* 유튜브 감싸기와 크기 위치 조절, 원래는 iframe을 위한 설정이였어서 조금 복잡하게 만들어져있음 */
+        .video-wrap {
+            margin-left: 70px;
+            margin-top: 20px;
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+        }
+
+        /* 유튜브 감싸기 iframe 크기 조절, 로컬로는 유튜브가 연결이 안돼서 현재는 html에서 주석처리 해놓은 클래스임 */
+        .video-wrap iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* 유튜브 썸네일 사진 첨부 크기 조절 */
+        .video-wrap img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            box-shadow: 5px 5px 5px #161515;
+        }
+
+        /* li 태그 패딩, 크기 */
+        li {
+            padding: 7px;
+            font-size: 20px;
+        }
+
+        /* button 태그 모양 */
+        button {
+            color: white;
+            width: 90px;
+            height: 45px;
+            border-radius: 8px;
+            background-color: #645d5d;
+            border: 4px solid #1b1a1a;
+            box-shadow: 5px 5px 5px #161515;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        /* 오프닝 탭에서 "오프닝 보기" 버튼 가로 크기 늘리기 */
+        button.button01 {
+            width:120px;
+        }
+    
+        /* 버튼 마우스 커서 올려놓을 때 더 밝게 */
+        button:hover {
+            background-color: #837a7a;
+        }
+
+        /* 오프닝 탭에서 "저장" 버튼 위치 조절과 글자 크기 조절 */
+        .saveButton-margin {
+            margin-left: 547px;
+            font-size: 25px;
+        }
+        
+
+
+
+
+            /* 폰트 */
+            .font01 {
+                font-family: "Gugi", sans-serif;
+                font-style: normal;
+            }
+
+            .font02 {
+                font-family: "Nanum Brush Script", cursive;
+                font-style: normal;
+            }
+
+            .font03 {
+                font-family: "Black Han Sans", sans-serif;
+                font-style: normal;
+                }
+
+            .font04 {
+                font-family: "Do Hyeon", sans-serif;
+                font-style: normal;
+            }
+
+                
+            @font-face {
+                font-family: "Black Han Sans";
+                src: url(./fonts/BlackHanSans-Regular.ttf)
+            }
+
+
+            @font-face {
+                font-family: "Nanum Pen Script";
+                src: url(./fonts/NanumPenScript-Regular.ttf)
+            }
+
+            @font-face {
+                font-family: "Gugi";
+                src: url(./fonts/Gugi-Regular.ttf)
+            }
+
+            @font-face {
+                font-family: "Do Hyeon";
+                src: url(./fonts/DoHyeon-Regular.ttf)
+            }
